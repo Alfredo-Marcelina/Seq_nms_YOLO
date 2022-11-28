@@ -24,8 +24,8 @@ All the steps have to executed in a terminal linux with Anaconda
    - `cd Seq_nms_YOLO`
 5. There are two way to create the environment MANUALLY or DIRECTLY:
 - Manually:
-   - `conda create --name Yolo_e python=2.7`
-   - `source activate Yolo_e` (It is important have python 2.7 because this repository is implemented in this version)
+   - `conda create --name Yolo_envi python=2.7`
+   - `source activate Yolo_envi` (It is important have python 2.7 because this repository is implemented in this version)
   - Install Tensorflow Object Detection API 
    - cv2: `pip install opencv-python==4.2.0.32`
    - matplotlib: `conda install matplotlib`
