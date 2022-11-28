@@ -61,7 +61,7 @@ All the steps have to executed in a terminal linux with Anaconda
 
    10. Return to root directory seq_nms_YOLO `cd ..` to generate output images in video/output:
     
-       - If you want to run YOLOv2 without any post processing python `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
+       - If you want to run YOLOv2 without any post processing `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
        - If you want to run YOLOv2 with frame-by-frame NMS `python yolo_seqnms.py --Seq_Nms 0 --Nms 1`
        - If you want to run YOLOv2 with Seq_NMS `python yolo_seqnms.py --Seq_Nms 1 --Nms 0`
 
