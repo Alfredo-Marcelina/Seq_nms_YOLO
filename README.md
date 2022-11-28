@@ -30,9 +30,9 @@ All the steps have to executed in a terminal linux with Anaconda
    - cv2: `pip install opencv-python==4.2.0.32`
    - matplotlib: `conda install matplotlib`
    - scipy: `conda install -c anaconda scipy`
-   - tensorflow: `conda install -c anaconda tensorflow-gpu`
+   - tensorflow: `pip install tensorflow-gpu`
    - pillow: `conda install -c anaconda pillow`
-   - tf_object_detection: `conda install -c conda-forge tf_object_detection`
+   - tf_object_detection: `pip install tf_object_detection`
  - Directly
    - `source activate`
    - `conda env create -f Yolo_env.yml`
