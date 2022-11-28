@@ -86,3 +86,5 @@ This project copies lots of code from [darknet](https://github.com/pjreddie/dark
 Some instructions were extracted from: https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html
 
 
+
+
