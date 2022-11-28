@@ -75,11 +75,11 @@ IMPORTANT: This step will fail if the Tensorflow Object Detection API is not ins
  The results would be available in the video folder `output.mp4`.
 
      
-#### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 0 --Nms 0`"
+###### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 0 --Nms 0`"
    ![baby_seq0_nms0_1](https://user-images.githubusercontent.com/118300060/204384300-946cb369-b520-498b-b3fb-c6e0ab75d306.gif)
-#### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 0 --Nms 1`"
+###### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 0 --Nms 1`"
 ![baby_seq0_nms1_1](https://user-images.githubusercontent.com/118300060/204384011-94d3c419-2f13-4b39-a7c6-36abfdb167b2.gif)
-#### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 1 --Nms 0`"
+###### Reconstructed video from "`python yolo_seqnms.py --Seq_Nms 1 --Nms 0`"
 ![baby_seq1_nms1_1](https://user-images.githubusercontent.com/118300060/204384013-41dfda68-5f5a-474f-96f0-11542c8701e0.gif)
 
      
