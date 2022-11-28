@@ -55,7 +55,6 @@ All the steps have to executed in a terminal linux with Anaconda
      - v_Archery_g07_c01.avi
      - v_BabyCrawling_g11_c01.avi
      - v_BalanceBeam_g18_c01.avi
-     - v_HorseRace_g01_c01.avi
      
    9. From the directory (/seq_nms_YOLO/video):
       - `python video2img.py -i input.avi`
