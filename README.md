@@ -22,11 +22,10 @@ All the steps have to executed in a terminal linux with Anaconda
    - `chmod -R 755 Seq_nms_YOLO`
 4. Open the folder seq_nms_YOLO:
    - `cd Seq_nms_YOLO`
-5. There are two way to create the environment MANUALLY or DIRECTLY:
+5. There are two ways to create the environment MANUALLY or DIRECTLY:
 - Manually:
    - `conda create --name Yolo_env python=2.7`
    - `source activate Yolo_env` (It is important have python 2.7 because this repository is implemented in this version)
-  - Install Tensorflow Object Detection API 
    - cv2: `pip install opencv-python==4.2.0.32`
    - matplotlib: `conda install matplotlib`
    - scipy: `conda install -c anaconda scipy`
@@ -48,7 +47,7 @@ All the steps have to executed in a terminal linux with Anaconda
       - `wget https://pjreddie.com/media/files/yolo-tiny.weights`
   7. Go to file to the video directory (/seq_nms_YOLO/video)
       - `cd video`
-  8. Copy a video file to the video directory (/seq_nms_YOLO/video), for example, input.mp4 or input.avi, however you can use the videos that are insade of the folder:
+  8. Copy a video file to the video directory (/seq_nms_YOLO/video), for example, input.mp4 or input.avi, however you can use the videos that are inside of the folder:
   
      - v_ApplyEyeMakeup_g19_c03.avi
      - v_ApplyLipstick_g21_c01.avi
@@ -62,9 +61,9 @@ All the steps have to executed in a terminal linux with Anaconda
 
    10. Return to root directory seq_nms_YOLO `cd ..` to generate output images in video/output:
     
-       - If you want to run only Yolo v2 `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
-       - If you want to run Seq-NMSYOLOv2 but without the Seq_NMS post processing  `python yolo_seqnms.py --Seq_Nms 0 --Nms 1`
-       - If you want to run Seq-NMSYOLOv2 but desactivating NMS with the intention to not detect the relevant detections then   `python yolo_seqnms.py --Seq_Nms 1 --Nms 0`
+       - If you want to run YOLOv2 without any post processing python `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
+       - If you want to run YOLOv2 with frame-by-frame NMS `python yolo_seqnms.py --Seq_Nms 0 --Nms 1`
+       - If you want to run YOLOv2 with Seq_NMS `python yolo_seqnms.py --Seq_Nms 1 --Nms 0`
 
 IMPORTANT: This step will fail if the Tensorflow Object Detection API is not installed correctly, start again with all the steps.
 
