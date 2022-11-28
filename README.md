@@ -60,12 +60,12 @@ All the steps have to executed in a terminal linux with Anaconda
    9. From the directory (/seq_nms_YOLO/video):
       - `python video2img.py -i input.avi`
       - `python get_pkllist.py`
-      
-   10. Return to root directory seq_nms_YOLO `cd ..` to generate output images in video/output: 
+
+   10. Return to root directory seq_nms_YOLO `cd ..` to generate output images in video/output:
     
-      - If you want to run only Yolo v2 `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
-      - If you want to run Seq-NMSYOLOv2 but without the Seq_NMS post processing `python yolo_seqnms.py --Seq_Nms 0 --Nms 1`
-      - If you want to run Seq-NMSYOLOv2 but desactivating NMS with the intention to not detect the relevant detections then  `python yolo_seqnms.py --Seq_Nms 1 --Nms 0`
+       - If you want to run only Yolo v2 `python yolo_seqnms.py --Seq_Nms 0 --Nms 0`
+       - If you want to run Seq-NMSYOLOv2 but without the Seq_NMS post processing  `python yolo_seqnms.py --Seq_Nms 0 --Nms 1`
+       - If you want to run Seq-NMSYOLOv2 but desactivating NMS with the intention to not detect the relevant detections then   `python yolo_seqnms.py --Seq_Nms 1 --Nms 0`
 
 IMPORTANT: This step will fail if the Tensorflow Object Detection API is not installed correctly, start again with all the steps.
 
